@@ -5,7 +5,7 @@
         border: 1px solid #DDDDDD;
         border-radius: 4px;
         position: relative;
-        display: flex;        
+        display: flex;
       }
 .filters button{
         font-size: 18px;
@@ -40,4 +40,27 @@
 .locations h4, .amenities h4 {
         font-weight: 400;
         margin-top: 0px;
+      }
+.popover {
+        display: none;
+        background-color: #FAFAFA;
+        width: 100%;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        position: relative;
+        top: -2px;
+        left: -45px;
+      }
+h2  {
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+ul {
+        list-style-type: none;
+      }
+li{
+        line-height: 3;
+      }
+.locations:hover .popover, .amenities:hover .popover {
+        display: block;
       }
